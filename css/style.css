@@ -1,3 +1,8 @@
+* {
+
+  box-sizing: border-box;
+}
+
 body, html {
   height: 100%; /* Note that the height of the body and html is declared in %. In order to use % with .bgimg-1 (see below), we have to declare 100% height on the body and html tags.  */
   margin: 0;
@@ -19,10 +24,10 @@ body, html {
         color: white;
         padding: 0px 20px;
         text-decoration: none;
-        font-family: Gourmet Hearth;
-        font-size: 12px;
-        letter-spacing: 3px;
+        font-family: Rubik;
+        font-size: 10px;
         display: inline-block;
+        letter-spacing: 5px;
       }
 
       .mainNav a:hover {
@@ -67,6 +72,12 @@ body, html {
 }
 
 @media only screen and (max-width: 600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 600px) {
 	.bgimg-1, .bgimg-2, .bgimg-3 {
 		background-attachment: scroll;
 	}
@@ -101,24 +112,66 @@ left: 50%;
 margin: 0 0 0;
 }
 
+.about_section {
+
+  color: #777;
+  background-color:#fff78f;
+  text-align:center;
+  padding:50px 50px;
+  text-align: justify;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_section {
+    height: 100%;
+  }
+  .about_image {
+    width: 100%;
+  }
+
+}
+
 .about_image {
   position: relative;
   float: left;
   padding: 10px;
   float:left;
-  width: 45%
+  width: 50%
+}
+
+/*.image {
+  width: 4px;
+  left: 50%;
+}*/
+
+@media only screen and (max-width: 600px) {
+  .about_image {
+    width: 100%;
+    display: none;
+  }
 }
 
 .about_paragraph {
+  float: left;
   width: 50%;
-  display: inline-block;
+  display: block;
   position: relative;
   padding: 5px;
+  height: 50px;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .about_paragraph {
+    width: 100%;
+  }
+}
+
+
 .bgimg-2 {
-  background-image: url("../imgs/image_1.jpg");
-  min-height: 400px;
+  background-image: url("../imgs/image_2.jpg");
+  min-height: 100%;
 }
 
 .bgimg-3 {
@@ -145,7 +198,7 @@ margin: 0 0 0;
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
+  font: 24px "Gourmet Hearth", sans-serif;
   color: #111;
 }
 </style>
