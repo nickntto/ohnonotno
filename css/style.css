@@ -85,7 +85,7 @@ body, html {
 /* 4. Parallax isn't very compatible on mobile devices so you will want to add a media query that changes the value of the background attachment when the width of your browser goes below a certain number. */
 
 .bgimg-1 {
-  background-image: url("../imgs/image_1.jpg");
+  background-image: url("../imgs/image_1.JPG");
   min-height: 100%;
   background-color: blue;
   vertical-align: middle;
@@ -223,7 +223,7 @@ ABOUT SECTION*/
 }
 
 .bgimg-2 {
-  background-image: url("../imgs/image_2.jpg");
+  background-image: url("../imgs/image_2.JPG");
   min-height: 100%;
 }
 
@@ -338,7 +338,7 @@ SHOP SECTION*/
 }
 
 .bgimg-3 {
-  background-image: url("../imgs/image_3.jpg");
+  background-image: url("../imgs/image_3.JPG");
   min-height: 100%;
 }
 
