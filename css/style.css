@@ -85,7 +85,7 @@ body, html {
 /* 4. Parallax isn't very compatible on mobile devices so you will want to add a media query that changes the value of the background attachment when the width of your browser goes below a certain number. */
 
 .bgimg-1 {
-  background-image: url("../imgs/image_1.JPG");
+  background-image: url("../imgs/image_1.jpg");
   min-height: 100%;
   background-color: blue;
   vertical-align: middle;
@@ -216,14 +216,14 @@ ABOUT SECTION*/
     /*height: 250px;*/
     padding: 0px;
     text-align: left;
-    font-size: 14pt;
+    font-size: 13pt;
     /*display: inline-block;*/
     /*overflow: auto;*/
   }
 }
 
 .bgimg-2 {
-  background-image: url("../imgs/image_2.JPG");
+  background-image: url("../imgs/image_2.jpg");
   min-height: 100%;
 }
 
@@ -338,7 +338,7 @@ SHOP SECTION*/
 }
 
 .bgimg-3 {
-  background-image: url("../imgs/image_3.JPG");
+  background-image: url("../imgs/image_3.jpg");
   min-height: 100%;
 }
 
@@ -450,6 +450,19 @@ VISIT SECTION*/
     /*display: inline-block;*/
     /*overflow: auto;*/
   }
+}
+
+/*---------------
+CONTACT SECTION*/
+
+.contact_section {
+
+  color: #777;
+  background-color:#fff78f;
+  text-align:center;
+  padding:25px;
+  text-align: justify;
+  height: 925px;
 }
 
 .caption {
