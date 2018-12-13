@@ -9,25 +9,23 @@
 
 <body>
 
-    <nav class="mainNav" id="responsiveNav">
-      <a href="#"><h2>ABOUT</h2></a>
-      <a href="#"><h2>SHOP</h2></a>
-      <a href="#"><h2>VISIT</h2></a>
-      <a href="#"><h2>CONTACT</h2></a>
-      <a href="javascript:void(0);" style="font-size: 20px;" class="icon" onclick="myFunction()">
-      &#9776;</a>
-    </nav>
+  <main>
+    <section>
+      
+    </section>
+      <nav class="mainNav" id="responsiveNav">
+        <a href="#HOME"><h2 style="color: #fff78f">NO.</h2></a>
+        <a href="#ABOUT"><h2>ABOUT</h2></a>
+        <a href="#SHOP"><h2>SHOP</h2></a>
+        <a href="#VISIT"><h2>VISIT</h2></a>
+        <a href="#CONTACT"><h2>CONTACT</h2></a>
+        <a href="javascript:void(0);" style="font-size: 20px;" class="icon" onclick="myFunction()">
+        &#9776;</a>
+      </nav>
+  </main>
 
-    <script>
-      function myFunction() {
-        var x = document.getElementById("responsiveNav");
-        if (x.className === "mainNav") {
-          x.className += " responsive" ;
-        } else {
-          x.className = "mainNav"
-        }
-        }
-    </script>
+<section id="HOME">
+</section>
 
 <div class="bgimg-1" style="height: 100%">
   <div class="logo1">
@@ -35,7 +33,10 @@
   </div>
 </div>
 
-<div class="about_section">
+<section id="ABOUT">
+</section>
+
+  <div class="about_section">
 
   <h3 style="text-align:center; font-family: Rubik; font-size: 32px; top: 100px padding:0px;">ABOUT US</h3> 
   
@@ -55,45 +56,53 @@
   </div>
 </div>
 
-<div class="shop_section">
+<section id="SHOP">
+</section>
+  <div class="shop_section">
 
-  <h3 style="text-align:center; font-family: Rubik; font-size: 32px; top: 100px padding:0px;">SHOP NO.</h3> 
+    <h3 style="text-align:center; font-family: Rubik; font-size: 32px; top: 100px padding:0px;">SHOP NO.</h3> 
 
-  <div class="shop_image">
+    <div class="shop_image">
       <img src="imgs/owners.jpg" class="image">
+    </div>
+
+    <div class="shop_paragraph">
+      <p>No Shop is a collaboration between Amber Nicole Gavin, Leah Edwina Martin and the community. Opening in the fall of 2009 as an experiment on the sustainability of curating unique vintage pieces and classic basics. NO SHOP caters to anyone who enjoys vintage shopping, the unique subcultures of San Francisco and aims to elevate vintage clothing as a great alternative to buying something new. The shop is located in the Mission District, off 16th and Valencia, surrounded by places to shop, eat and drink, making it a destination for locals and tourists alike. Don’t be surprised if you’ll walk out with a bag full of new threads and timeless pieces.</p>
+    </div>
+
   </div>
 
-  <div class="shop_paragraph">
-    <p>No Shop is a collaboration between Amber Nicole Gavin, Leah Edwina Martin and the community. Opening in the fall of 2009 as an experiment on the sustainability of curating unique vintage pieces and classic basics. NO SHOP caters to anyone who enjoys vintage shopping, the unique subcultures of San Francisco and aims to elevate vintage clothing as a great alternative to buying something new. The shop is located in the Mission District, off 16th and Valencia, surrounded by places to shop, eat and drink, making it a destination for locals and tourists alike. Don’t be surprised if you’ll walk out with a bag full of new threads and timeless pieces.</p>
+  <div class="bgimg-3">
+    <div class="caption">
+      <span class="border">LOCATED IN SAN FRANCISCO'S HISTORIC MISSION DISTRICT</span>
+    </div>
   </div>
 
-</div>
+  <section id="VISIT">
+  </section>
 
-<div class="bgimg-3">
-  <div class="caption">
-    <span class="border">LOCATED IN SAN FRANCISCO'S HISTORIC MISSION DISTRICT</span>
-  </div>
-</div>
+  <div class="visit_section">
 
-<div class="visit_section">
-
-  <h3 style="text-align:center; font-family: Rubik; font-size: 32px; top: 100px padding:0px;">VISIT US</h3> 
+    <h3 style="text-align:center; font-family: Rubik; font-size: 32px; top: 100px padding:0px;">VISIT US</h3> 
   
-  <div class="visit_image">
+    <div class="visit_image">
       <img src="imgs/owners.jpg" class="image">
+    </div>
+
+    <div class="visit_paragraph">
+      <p>No Shop is located in San Francisco's historic Mission District off, 16th and Valencia. The shop is one block away from the easily accessible 16th and Mission Bart Station. Our store is surrounded by places to shop, eat and drink so make sure to make a day out of visiting our store as there is so much to see so close to No.</p>
+    </div>
+
   </div>
 
-  <div class="visit_paragraph">
-    <p>No Shop is a collaboration between Amber Nicole Gavin, Leah Edwina Martin and the community. Opening in the fall of 2009 as an experiment on the sustainability of curating unique vintage pieces and classic basics. NO SHOP caters to anyone who enjoys vintage shopping, the unique subcultures of San Francisco and aims to elevate vintage clothing as a great alternative to buying something new. The shop is located in the Mission District, off 16th and Valencia, surrounded by places to shop, eat and drink, making it a destination for locals and tourists alike. Don’t be surprised if you’ll walk out with a bag full of new threads and timeless pieces.</p>
+  <div class="bgimg-1">
+    <div class="caption">
+      <span class="border">COME VISIT US SOON!</span>
+    </div>
   </div>
 
-</div>
-
-<div class="bgimg-1">
-  <div class="caption">
-    <span class="border">PLACE TEXT HERE</span>
-  </div>
-</div>
+<section id="CONTACT">
+</section>
 
 <div class="contact_section">
 
@@ -102,6 +111,27 @@
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeeknTd3f3wmp35ovzt_RbnVFi8KwfAJ_iT03pDmpRlcWcFg/viewform?embedded=true" width="100%" height="790" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("responsiveNav");
+      if (x.className === "mainNav") {
+          x.className += " responsive" ;
+        } else {
+          x.className = "mainNav"
+        }
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+  </script>
 
 </body>
 </html>
